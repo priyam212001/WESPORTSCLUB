@@ -1,0 +1,89 @@
+#backgroundimage{
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(212.38deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%),url("bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -100;
+  
+  }
+/* Container styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  
+  
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+nav li {
+  float: left;
+  
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+nav li a:hover {
+  background-color: #111;
+  width: 100%;
+}
+button {
+  background-color: whitesmoke;
+  color: #333;
+  border: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+float: right;
+margin-top: 10px;
+margin-right: 20px;
+
+  
+}
+
+/* Main content styles */
+main {
+  padding: 50px;
+}
+p{
+  
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  padding-left: 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+  height: 50px;
+
+}
+ 
